@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  height: 100%;
+}
+.container{
+  background-color: #151515;
+  display: flex;
+  flex-direction: row;  /* row ou column */
+  height: 100%;
+  justify-content: space-around; 
+  /* Horizontal; flex-start, flex-end, center, space-around, space-between */
+  align-items: center;
+  /* Vertical; flex-end, flex-start, center */
+  flex-wrap: nowrap;
+}
+.filha{
+  width: 40%;
+  height: 200px;
+  background-color: rebeccapurple ;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

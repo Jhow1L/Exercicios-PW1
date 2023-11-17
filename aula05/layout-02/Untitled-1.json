@@ -1,0 +1,19 @@
+{
+    "versão": "2.0.0",
+    "tarefas": [
+        {
+            "rótulo": "construir",
+            "comando": "dotnet",
+            "tipo": "processo",
+            "argumentos": [
+                "construir",
+                "/propriedade:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "opções": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

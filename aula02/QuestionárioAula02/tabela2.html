@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table{
+            text-align: center;
+
+        }
+        th{
+            border: 1px;
+            border-color: black;
+            border-style: solid;
+            padding: 20px;
+        }
+        td{
+            border: 1px;
+            border-color: black;
+            border-style: solid;
+            padding: 20px;
+        }
+        #cor{
+            background-color: gray;
+        }
+        #tit{
+            padding: 35px;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr id="titulo">
+                <th colspan="3" id="tit">Linguagens básicas da web</th>
+            </tr>
+            <tr id="cor">
+                <th colspan="2">Conteúdo/Aparência:</th>
+                <th>Interatividade:</th>
+            </tr>
+
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>JavaScrip</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr id="cor">
+                <td rowspan="3">Fonte: wikipedia.org</td>
+            </tr>
+        </tfoot>
+        </thead>
+    </table>
+</body>
+</html>
